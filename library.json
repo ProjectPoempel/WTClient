@@ -13,6 +13,9 @@
       "url": "https://github.com/EnWaffel"
     }
   ],
+  "dependencies": {
+      "external-repo": "https://github.com/ProjectPoempel/wtprot.git"
+  },
   "license": "MIT",
   "frameworks": ["arduino"],
   "platforms": ["espressif32"]
