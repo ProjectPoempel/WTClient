@@ -1,0 +1,19 @@
+{
+  "name": "WTClient",
+  "version": "0.1.0",
+  "description": "Network client and utilities for Wettorion weather stations",
+  "keywords": ["weather", "wettorion", "esp32"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProjectP/WT-Client.git"
+  },
+  "authors": [
+    {
+      "name": "EnWaffel",
+      "url": "https://github.com/EnWaffel"
+    }
+  ],
+  "license": "MIT",
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32"]
+}

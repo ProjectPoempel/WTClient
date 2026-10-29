@@ -1,0 +1,18 @@
+#pragma once
+
+#include <cstdint>
+
+#define WT_SUCCESS 0
+#define WT_WAIT 7
+
+#define WT_ERROR_UNKNOWN 1
+#define WT_ERROR_CONNECT 2
+#define WT_ERROR_TIMEOUT 3
+#define WT_ERROR_HANDSHAKE 4
+#define WT_ERROR_PROTOCOL_VIOLATION 5
+#define WT_ERROR_PACKET_DATA_MISSING 6
+#define WT_ERROR_PROTOCOL_MISMATCH 8
+#define WT_ERROR_NOT_CONNECTED 9
+#define WT_ERROR_ALREADY_CONNECTED 10
+
+typedef uint32_t WTError;
